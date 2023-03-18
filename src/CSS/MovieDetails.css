@@ -1,0 +1,102 @@
+.MovieDetails {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  width: 100%;
+  height: 89.3vh;
+  background: linear-gradient(
+    to top,
+    transparent 0%,
+    rgb(148, 146, 146) 25%,
+    rgb(26, 24, 24) 100%
+  );
+}
+
+.MovieDetails img {
+  width: 100%;
+}
+
+.LeftImg {
+  margin: 3%;
+  width: 23%;
+  height: 80%;
+  /* border: 2px solid blue; */
+  border-radius: 20px;
+}
+
+.LeftImg img {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.RightDetails {
+  color: cornsilk;
+  display: flex;
+  width: 50%;
+  /* border: 2px solid blue; */
+  margin: 0 0 0 10px;
+}
+
+.AboutMovie {
+  margin: 10% 0 0 0;
+  width: 80%;
+  height: 80%;
+  line-height: 30px;
+}
+.AboutMovie h1 {
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.AboutMovie p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AboutMovie input {
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(250, 10, 210);
+  color: white;
+  font-weight: 600;
+  margin: 10% 0 0 0;
+}
+
+form {
+  position: relative;
+  display: flex;
+}
+
+form .RadioBtn {
+  margin: 5px 10px;
+  letter-spacing: 1px;
+}
+
+form .RadioBtn input {
+  cursor: pointer;
+  padding: 0 0 0 2px;
+}
+
+.BtnBox {
+  position: absolute;
+  bottom: -37px;
+  right: -30px;
+}
+
+.BtnBox input {
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(250, 10, 210);
+}
+
+/* .DescMovie {
+  color: aliceblue;
+  width: 50%;
+} */

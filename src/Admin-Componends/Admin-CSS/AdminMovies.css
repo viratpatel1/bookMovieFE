@@ -1,0 +1,116 @@
+.container {
+  /* background-color: rgb(170, 170, 235); */
+  /* margin: 0 0 0 2%; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* max-width: 100%; */
+}
+/* .btn-modal {
+  display: none;
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 50px 70px;
+}
+.close {
+  position: absolute;
+  bottom: 180px;
+  left: 270px;
+} */
+.Card {
+  display: inline-flex;
+  justify-content: center;
+  border: 2px solid red;
+  border-radius: 10px;
+  /* margin: 15px; */
+  /* margin: 20px 10px; */
+  height: 450px;
+  width: 300px;
+}
+.Card img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Button {
+  display: flex;
+  place-content: center;
+}
+.Button button {
+  background-color: rgb(16, 85, 224);
+  color: #ffff;
+  width: auto;
+  height: 20px;
+  font-weight: 500;
+  margin: auto 2px 0px 0px;
+  border-radius: 10px;
+}
+.Card-Details h2 {
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+.Card-Details {
+  display: none;
+}
+
+.Card:hover .Card-Details {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: linear-gradient(
+    to bottom right,
+    rgb(85, 198, 243),
+    rgb(17, 99, 207)
+  ); */
+  max-height: 100%;
+  transform: translateY(-101%);
+}
+
+@media only screen and (max-width: 665px) {
+  .container {
+    /* align-items: center; */
+    text-align: center;
+  }
+}

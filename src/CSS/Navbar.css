@@ -1,0 +1,70 @@
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: burlywood; */
+  background-color: rgb(51, 53, 69);
+  margin: 0px 0px;
+  height: 70px;
+  font-size: 20px;
+}
+
+.nav-menu h2 {
+  color: white;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin-right: 50px;
+}
+.nav-menu ul li {
+  cursor: pointer;
+  padding: 0px 10px 5px 10px;
+  list-style: none;
+  /* background-color: burlywood; */
+  font-size: 23px;
+  margin: 10px 20px 0 20px;
+}
+.nav-menu ul li:hover {
+  /* background-color: yellowgreen; */
+  color: rgb(65, 52, 52);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .nav-menu h2 {
+    font-size: 20px;
+  }
+  .nav-menu ul li {
+    padding: 0px 10px 5px 10px;
+    /* padding: 0 0 0 0; */
+    font-size: 20px;
+    margin: 10px 5px 0 5px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .nav-menu h2 {
+    font-size: 15px;
+  }
+  .nav-menu ul li {
+    /* padding: 0px 10px 5px 10px; */
+    /* padding: 0 0 0; */
+    font-size: 15px;
+    margin: 10px 3px 0 3px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .nav-menu h2 {
+    font-size: 15px;
+    display: none;
+  }
+  .nav-menu ul li {
+    /* padding: 0px 10px 5px 10px; */
+    /* padding: 0 0 0; */
+    font-size: 15px;
+    margin: 10px 3px 0 3px;
+  }
+  .nav-menu ul li:hover {
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,89 @@
+.Cenima {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  /* border: 1px solid blue; */
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 50%);
+  margin: -150px 0 0px 0;
+}
+
+.Cenima .Screen {
+  position: relative;
+  /* border: 2px solid blue; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cenima .Screen hr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 30px;
+  margin: 30px 0 0 0;
+  color: black;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.Cenima .Seats {
+  position: relative;
+  margin: 120px 0 0 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  width: 100%;
+}
+
+.num {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.num p {
+  margin: 0px 5.5px 12px 5.5px;
+  color: rgb(160, 157, 157);
+  font-weight: 600;
+}
+
+.Seats .alpha {
+  position: absolute;
+  margin: 0px 0 0 120px;
+  color: rgb(160, 157, 157);
+  font-weight: 600;
+}
+
+/* .Seats .alpha p {
+  color: rgb(133, 122, 122);
+  font-weight: 600;
+} */
+
+.First input,
+.Second input,
+.Third input,
+.Fourth input {
+  cursor: pointer;
+  margin: 12px 5px;
+}
+
+/* input:hover {
+  color: rgb(15, 235, 15);
+} */
+
+.Cenima input {
+  padding: 8px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(250, 10, 210);
+  color: white;
+  font-weight: 700;
+}

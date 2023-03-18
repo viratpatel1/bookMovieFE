@@ -1,0 +1,12 @@
+.Img {
+  /* border: 3px solid red; */
+  height: 90vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.Img img {
+  width: 70%;
+  z-index: -1;
+}

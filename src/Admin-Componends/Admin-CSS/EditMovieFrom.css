@@ -1,0 +1,10 @@
+.Edit {
+  /* display: grid; */
+  margin: 0 10px;
+}
+.Edit button {
+  background-color: rgb(37, 87, 250);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

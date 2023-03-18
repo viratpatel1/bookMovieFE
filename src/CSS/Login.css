@@ -1,0 +1,13 @@
+.Loginform {
+  display: grid;
+  width: 250px;
+  padding: 20px 0 30px 0;
+  place-content: center;
+  border-radius: 5px;
+  margin: 120px auto auto auto;
+  /* margin: auto, 0; */
+  background-color: aquamarine;
+}
+.Loginform .login {
+  display: grid;
+}
